@@ -743,7 +743,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 851230528}
         m_TargetAssemblyTypeName: Flipper, Assembly-CSharp
-        m_MethodName: Excercisepress
+        m_MethodName: Right
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
