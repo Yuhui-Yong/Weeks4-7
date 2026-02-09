@@ -1,9 +1,11 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CodingGym2 : MonoBehaviour
 {
 
-    public float rotationSpeed;
+    SpriteRenderer spriteRenderer;
+    public Slider slider;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,21 +16,15 @@ public class CodingGym2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 currentRotation = transform.eulerAngles;
-        currentRotation.z += rotationSpeed * Time.deltaTime;
 
-        transform.eulerAngles = currentRotation;
     }
 
 
-    public void Click()
+    public void Rotation(float value)
     {
-        rotationSpeed = 100;
-    }    
-
-    public void offClick()
-    {
-        rotationSpeed = 0;
+        slider.value = value;
+        Vector3 newRotation = transform.eulerAngles;
+        newRotation.z += value;
+        transform.eulerAngles = newRotation;
     }
-
 }
