@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Clock : MonoBehaviour
+public class ClockToyTask : MonoBehaviour
 {
     public float timerValue = 0;
     public float timerMaxValue = 12;
