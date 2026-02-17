@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class ClockToyTask : MonoBehaviour
 {
     public float timerValue = 0;
-    public float timerMaxValue = 12;
+    public float timerMaxValue = 64.800f;
 
     public Slider timeVisuals;
 
