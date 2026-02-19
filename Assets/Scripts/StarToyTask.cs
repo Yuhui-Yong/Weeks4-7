@@ -41,5 +41,7 @@ public class StarToyTask : MonoBehaviour
         Vector2 StarPos = Camera.main.ScreenToWorldPoint(new Vector2(x, y)); // I need to change the MainCamera views from SreenToWorldPoint.
 
         GameObject AfterStar = Instantiate(StarPrefab, StarPos, Quaternion.identity); // This is for the furure that I will make the stars to be destoried after you spawn.
+
+        Destroy(AfterStar, 3.5f); // This is going to destory the star after 3.5 secs.
     }
 }
