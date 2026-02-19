@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 
-public class Counter : MonoBehaviour
+public class CounterToyTask : MonoBehaviour
 {
     public ClockToyTask HowMuchTime;
     public TextMeshProUGUI counter;
