@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class ContactSensor : MonoBehaviour
+public class Sensor : MonoBehaviour
 {
     public Player player;
     public UnityEvent OnEnter;
