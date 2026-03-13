@@ -78,4 +78,7 @@ public class DamageHazard : MonoBehaviour
         SpriteRenderer playerRenderer = player.GetComponent<SpriteRenderer>();
         playerRenderer.sprite = Yuhui;
     }
+
+    // To Store the object that spawn everytime players click the UI button, I had to use a "List".
+
 }
